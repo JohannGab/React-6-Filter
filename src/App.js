@@ -102,7 +102,7 @@ class App extends Component {
           {/* déclaration des noms de : True et de False */}
           {this.state.boleen ? "no filter" : "filter"}
         </button>
-
+   
         {/* Le tableau "quotes" est Filtré par filter puis le nouveau tableau "quote" de filter nous retourne soit un résultat qui est équivalent à True donc Affiche tout le tableau ou (||) retourne les characters qui inclue la string "Simpsons*/}
         {quotes
           .filter(
